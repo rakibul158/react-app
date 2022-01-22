@@ -1,0 +1,26 @@
+.Button {
+    &-Section {
+        display: flex;
+    }
+    &-Yes {
+        padding-right: 5px;
+        button {
+            padding: 5px 12px;
+            border: 1px solid #FF6335;
+            background: tomato;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+    &-No {
+        button{
+            padding: 5px 12px;
+            border: 1px solid #FF0002;
+            background: #ff0000;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
